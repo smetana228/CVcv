@@ -67,7 +67,7 @@ p{
   position: fixed; 
   right:0; 
   transition:0.5s; 
-  bottom: 210px; 
+  bottom: calc(140px + 100px); 
   max-width: 30%; 
 }
 .vl{ 
@@ -119,6 +119,7 @@ p{
     
 
 }
+
 
 
 
