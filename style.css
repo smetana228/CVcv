@@ -50,22 +50,25 @@ p{
 }
 
 
-.border2:hover,
-.border3:hover {
-  transform: scale(1.2);
-  transition: 0.5s;
-}
-
-.borders {
-  position: fixed;
-  right: 0;
-  bottom: 70px;          /* where the whole stack sits */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; /* keeps the right edges aligned */
-  gap: 20px;             /* space between the images */
-  pointer-events: none;  /* optional: so hover only hits images */
-  max-width: 30%;
+.border2:hover{ 
+  transform:scale(1.2); 
+} 
+.border3:hover{ 
+  transform:scale(1.2); 
+} 
+.border2{ 
+  position: fixed; 
+  right:0; 
+  transition:0.5s; 
+  bottom: 140px; 
+  max-width: 30%; 
+} 
+.border3{ 
+  position: fixed; 
+  right:0; 
+  transition:0.5s; 
+  bottom: 210px; 
+  max-width: 30%; 
 }
 
 
@@ -118,6 +121,7 @@ p{
     
 
 }
+
 
 
 
