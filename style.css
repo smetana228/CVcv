@@ -66,21 +66,21 @@ p{
 .border3:hover{
   transform:scale(1.2);
 }
-.border2, .border3 {
+
+.borders {
   position: fixed;
   right: 0;
+  bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* controls spacing between them */
+}
+
+.borders img {
   max-width: 30%;
   transition: 0.5s;
 }
 
-.border2 {
-  bottom: 140px;
-}
-
-.border3 {
-  bottom: calc(140px + 70px); /* stays 70px below .border2 */
-}
-}
 .vl{ 
   padding:10px;
   border-left: 4px solid #059ccf;
