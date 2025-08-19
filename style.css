@@ -69,20 +69,6 @@ p{
   transform:scale(1.2);
 }
 
-.borders {
-  position: fixed;
-  right: 0;
-  bottom: 70px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px; /* controls spacing between them */
-}
-
-.borders img {
-  max-width: 50%;
-  transition: 0.5s;
-}
-
 .vl{ 
   padding:10px;
   border-left: 4px solid #059ccf;
@@ -132,4 +118,5 @@ p{
     
 
 }
+
 
