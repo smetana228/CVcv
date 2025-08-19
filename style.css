@@ -49,17 +49,19 @@ p{
   color: #002b57;
 }
 
-
-.border1{
-  position: fixed;
-  right:0;
-  bottom: 70px;
-  transition:0.5s;
-  max-width: 30%;
-}
-.border1:hover{
-  transform:scale(1.2);
-}
+.border2{ 
+  position: fixed; 
+  right:0; 
+  transition:0.5s; 
+  bottom: 140px; 
+  max-width: 30%; 
+} 
+.border3{ 
+  position: fixed; 
+  right:0; 
+  transition:0.5s; 
+  bottom: 210px; 
+  max-width: 30%; }
 .border2:hover{
   transform:scale(1.2);
 }
@@ -77,7 +79,7 @@ p{
 }
 
 .borders img {
-  max-width: 30%;
+  max-width: 50%;
   transition: 0.5s;
 }
 
@@ -130,3 +132,4 @@ p{
     
 
 }
+
