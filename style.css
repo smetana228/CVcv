@@ -66,19 +66,20 @@ p{
 .border3:hover{
   transform:scale(1.2);
 }
-.border2{
+.border2, .border3 {
   position: fixed;
-  right:0;
-  transition:0.5s;
-  bottom: 140px;
+  right: 0;
   max-width: 30%;
+  transition: 0.5s;
 }
-.border3{
-  position: fixed;
-  right:0;
-  transition:0.5s;
-  bottom: 210px;
-  max-width: 30%;
+
+.border2 {
+  bottom: 140px;
+}
+
+.border3 {
+  bottom: calc(140px + 70px); /* stays 70px below .border2 */
+}
 }
 .vl{ 
   padding:10px;
@@ -127,4 +128,5 @@ p{
   .border2{
     center: 140px;
     
+
 }
